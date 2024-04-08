@@ -1,27 +1,24 @@
-# Portafolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
+# What is this?
+<p>
+  My portfolio show a description general of my job how developer.
+</p>
 
-## Development server
+# For what?
+<p>
+  I show some projects what have in progress or finished, somes blogs of how start different projects in some techs what knows. 
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Do you want work with my repository or my project?
+<p>
+  That's good, thats wants says, my proyect you like.
+Follow this steps:
+  <ul>
+    <li>1. Clone this repository</li>
+    <li>2. Open to Visual Studio Code</li>
+    <li>3. Download and update dependencies of node_modules. Thats are factory in the package.json.</li>
+    <li>4. Start the project with <span uppercase>npm start</span> </li>
+    <li>5. Good, start developer your own proyect. -.0</li>
+  </ul>
+</p>
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
