@@ -29,3 +29,19 @@ export class NavbarComponent {
     });
   }
 }
+
+
+// export class NavbarComponent {
+//   isMenuOpen = false;
+//   darkModeActive = false;
+
+//   toggleMenu() {
+//     this.isMenuOpen = !this.isMenuOpen;
+//   }
+
+//   toggleDarkMode() {
+//     this.darkModeActive = !this.darkModeActive;
+//     // Optionally, you can save the dark mode state to local storage
+//     // localStorage.setItem('darkMode', this.darkModeActive ? 'true' : 'false');
+//   }
+// }
