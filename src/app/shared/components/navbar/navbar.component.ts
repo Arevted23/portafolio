@@ -1,47 +1,18 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'shared-navbar',
   templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css',
+  styleUrl: './navbar.component.scss',
 })
 export class NavbarComponent {
 
-  public navegacionResponsive(): void {
+  public active: boolean = false
+  ngOnInit(): void{}
 
-    const navegacion = document.querySelector('.navegacion')
-    if (navegacion?.classList.contains('mostrar')) {
-      navegacion.classList.remove('mostrar');
-    } else {
-      navegacion?.classList.add('mostrar');
-    }
-  }
-
-  public showMenu(): void {
-    const mobileMenu = document.querySelector('.mobile-menu');
-    mobileMenu?.addEventListener('click', this.navegacionResponsive)
-  }
-
-  public darkMode(): void {
-    const btnDarkMode = document.querySelector('.dark-mode-boton');
-    btnDarkMode?.addEventListener('click', function () {
-      document.body.classList.toggle('bg-neutral-400');
-    });
+  setActive():void{
+    this.active = !this.active
   }
 }
 
 
-// export class NavbarComponent {
-//   isMenuOpen = false;
-//   darkModeActive = false;
-
-//   toggleMenu() {
-//     this.isMenuOpen = !this.isMenuOpen;
-//   }
-
-//   toggleDarkMode() {
-//     this.darkModeActive = !this.darkModeActive;
-//     // Optionally, you can save the dark mode state to local storage
-//     // localStorage.setItem('darkMode', this.darkModeActive ? 'true' : 'false');
-//   }
-// }
