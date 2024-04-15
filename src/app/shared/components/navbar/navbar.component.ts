@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { timeout } from 'rxjs';
 
 @Component({
   selector: 'shared-navbar',
@@ -13,6 +14,7 @@ export class NavbarComponent {
   setActive():void{
     this.active = !this.active
   }
+
 }
 
 
